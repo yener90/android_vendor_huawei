@@ -948,6 +948,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/huawei/can/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/huawei/can/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
+    vendor/huawei/can/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
+    vendor/huawei/can/proprietary/vendor/lib64/mmi_nfc.so:system/vendor/lib64/mmi_nfc.so \
+    vendor/huawei/can/proprietary/lib/libnfc-nci-44-551.so:system/lib/libnfc-nci-44-551.so \
+    vendor/huawei/can/proprietary/lib/libnfc_nci_jni_44_551.so:system/lib/libnfc_nci_jni_44_551.so \
+    vendor/huawei/can/proprietary/lib64/libnfc-nci-44-551.so:system/lib64/libnfc-nci-44-551.so \
+    vendor/huawei/can/proprietary/lib64/libnfc_nci_jni_44_551.so:system/lib64/libnfc_nci_jni_44_551.so \
+    vendor/huawei/can/proprietary/lib64/hw/nfc_nci.pn55x.default.so:system/lib64/hw/nfc_nci.pn55x.default.so \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
