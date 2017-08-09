@@ -807,6 +807,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/huawei/can/proprietary/vendor/lib/sensors.nosensorhub.so:system/vendor/lib/sensors.nosensorhub.so \
     vendor/huawei/can/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/huawei/can/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/huawei/can/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/huawei/can/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/huawei/can/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -945,6 +946,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/huawei/can/proprietary/vendor/lib64/sensors.nosensorhub.so:system/vendor/lib64/sensors.nosensorhub.so \
     vendor/huawei/can/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/huawei/can/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/huawei/can/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/huawei/can/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/huawei/can/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
@@ -955,6 +957,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/lib64/libnfc-nci-44-551.so:system/lib64/libnfc-nci-44-551.so \
     vendor/huawei/can/proprietary/lib64/libnfc_nci_jni_44_551.so:system/lib64/libnfc_nci_jni_44_551.so \
     vendor/huawei/can/proprietary/lib64/hw/nfc_nci.pn55x.default.so:system/lib64/hw/nfc_nci.pn55x.default.so \
+    vendor/huawei/can/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/huawei/can/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+    vendor/huawei/can/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
