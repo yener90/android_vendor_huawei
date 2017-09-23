@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/huawei/can/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/huawei/can/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-
     vendor/huawei/can/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/can/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/huawei/can/proprietary/bin/imscmservice:system/bin/imscmservice \
