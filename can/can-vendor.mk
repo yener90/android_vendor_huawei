@@ -1093,6 +1093,9 @@ PRODUCT_PACKAGES += \
     colorservice \
     shutdownlistener \
     com.qualcomm.location \
+    com.qualcomm.location.vzw_library \
+    com.qti.location.sdk \
+    izat.xt.srv \
     ims \
     imssettings \
     qcrilmsgtunnel \
