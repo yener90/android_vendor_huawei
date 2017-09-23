@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/huawei/can/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/huawei/can/proprietary/bin/garden_app:system/bin/garden_app \
+    vendor/huawei/can/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+
     vendor/huawei/can/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/can/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/huawei/can/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -82,6 +84,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Headset_cal.acdb:system/etc/acdbdata/mlal010203/Headset_cal.acdb \
     vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Speaker_cal.acdb:system/etc/acdbdata/mlal010203/Speaker_cal.acdb \
     vendor/huawei/can/proprietary/etc/cablconfig.xml:system/etc/cablconfig.xml \
+    vendor/huawei/can/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/huawei/can/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/huawei/can/proprietary/etc/camera/dflash/calPara4Selection.txt:system/etc/camera/dflash/calPara4Selection.txt \
     vendor/huawei/can/proprietary/etc/camera/dflash/calibration_000.txt:system/etc/camera/dflash/calibration_000.txt \
     vendor/huawei/can/proprietary/etc/camera/dflash/calibration_001.txt:system/etc/camera/dflash/calibration_001.txt \
@@ -223,6 +227,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/can/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/huawei/can/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/huawei/can/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/huawei/can/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/huawei/can/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/huawei/can/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/huawei/can/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
@@ -233,9 +239,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/huawei/can/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/huawei/can/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/huawei/can/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/huawei/can/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/huawei/can/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/huawei/can/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/huawei/can/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/huawei/can/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/huawei/can/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/huawei/can/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
@@ -283,6 +291,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/huawei/can/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/huawei/can/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/huawei/can/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
+    vendor/huawei/can/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
+    vendor/huawei/can/proprietary/lib/libunwind.so:system/lib/libunwind.so \
     vendor/huawei/can/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/huawei/can/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/huawei/can/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -315,6 +326,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/huawei/can/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/huawei/can/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/huawei/can/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
+    vendor/huawei/can/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/huawei/can/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/can/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/huawei/can/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
@@ -699,6 +712,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/huawei/can/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/huawei/can/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/huawei/can/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
+    vendor/huawei/can/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
     vendor/huawei/can/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/huawei/can/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/huawei/can/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
@@ -969,6 +984,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/huawei/can/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/huawei/can/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/huawei/can/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
+    vendor/huawei/can/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/huawei/can/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
     vendor/huawei/can/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/huawei/can/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
