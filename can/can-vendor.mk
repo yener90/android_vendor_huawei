@@ -172,6 +172,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/huawei/can/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/can/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/huawei/can/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
+    vendor/huawei/can/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/huawei/can/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/huawei/can/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/huawei/can/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
@@ -225,6 +227,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/huawei/can/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/huawei/can/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/huawei/can/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
+    vendor/huawei/can/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/huawei/can/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/huawei/can/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/huawei/can/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
