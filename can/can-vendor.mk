@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Hdmi_cal.acdb:system/etc/acdbdata/mlal010203/Hdmi_cal.acdb \
     vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Headset_cal.acdb:system/etc/acdbdata/mlal010203/Headset_cal.acdb \
     vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Speaker_cal.acdb:system/etc/acdbdata/mlal010203/Speaker_cal.acdb \
+    vendor/huawei/can/proprietary/etc/cablconfig.xml:system/etc/cablconfig.xml \
     vendor/huawei/can/proprietary/etc/camera/dflash/calPara4Selection.txt:system/etc/camera/dflash/calPara4Selection.txt \
     vendor/huawei/can/proprietary/etc/camera/dflash/calibration_000.txt:system/etc/camera/dflash/calibration_000.txt \
     vendor/huawei/can/proprietary/etc/camera/dflash/calibration_001.txt:system/etc/camera/dflash/calibration_001.txt \
