@@ -17,16 +17,23 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/huawei/diego/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/huawei/diego/proprietary/bin/cnd:system/bin/cnd \
     vendor/huawei/diego/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/huawei/diego/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/huawei/diego/proprietary/bin/dpm:system/bin/dpm \
+    vendor/huawei/diego/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/huawei/diego/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/huawei/diego/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/diego/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/huawei/diego/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/huawei/diego/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/huawei/diego/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/huawei/diego/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/huawei/diego/proprietary/bin/iop:system/bin/iop \
+    vendor/huawei/diego/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/huawei/diego/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/diego/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/diego/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/huawei/diego/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/huawei/diego/proprietary/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
     vendor/huawei/diego/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/diego/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
@@ -34,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/bin/oeminfo_nvm_server:system/bin/oeminfo_nvm_server \
     vendor/huawei/diego/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/huawei/diego/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/huawei/diego/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/diego/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/diego/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/diego/proprietary/bin/radish:system/bin/radish \
@@ -41,6 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/huawei/diego/proprietary/bin/teecd:system/bin/teecd \
     vendor/huawei/diego/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/huawei/diego/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/huawei/diego/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/huawei/diego/proprietary/etc/acdbdata/can/audio_para_version:system/etc/acdbdata/can/audio_para_version \
     vendor/huawei/diego/proprietary/etc/acdbdata/can/audio_platform_info.xml:system/etc/acdbdata/can/audio_platform_info.xml \
     vendor/huawei/diego/proprietary/etc/acdbdata/can/Bluetooth_cal.acdb:system/etc/acdbdata/can/Bluetooth_cal.acdb \
@@ -287,6 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_l02.bin \
     vendor/huawei/diego/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_l03.bin \
     vendor/huawei/diego/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_tl00.bin \
+    vendor/huawei/diego/proprietary/etc/wifi/WCNSS_hw_wlan_nv_diego.bin:system/etc/wifi/WCNSS_hw_wlan_nv_diego.bin \
     vendor/huawei/diego/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_al00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_al00.bin \
     vendor/huawei/diego/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_cl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_cl00.bin \
     vendor/huawei/diego/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l01.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l01.bin \
@@ -371,7 +382,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/huawei/diego/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/diego/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
-    vendor/huawei/diego/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/huawei/diego/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/huawei/diego/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/huawei/diego/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
@@ -477,8 +487,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/huawei/diego/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/huawei/diego/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/libOmxAlacDec.so:system/vendor/lib64/libOmxAlacDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/libOmxApeDec.so:system/vendor/lib64/libOmxApeDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
     vendor/huawei/diego/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
     vendor/huawei/diego/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/huawei/diego/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/huawei/diego/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/huawei/diego/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
@@ -546,6 +563,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/huawei/diego/proprietary/vendor/lib64/sensors.nosensorhub.so:system/vendor/lib64/sensors.nosensorhub.so \
     vendor/huawei/diego/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
+    vendor/huawei/diego/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/huawei/diego/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/huawei/diego/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/huawei/diego/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -589,7 +609,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/huawei/diego/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/huawei/diego/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/huawei/diego/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/huawei/diego/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/huawei/diego/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/huawei/diego/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/huawei/diego/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/huawei/diego/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
@@ -1730,8 +1752,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/huawei/diego/proprietary/vendor/lib/libois_lc898123.so:system/vendor/lib/libois_lc898123.so \
     vendor/huawei/diego/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
+    vendor/huawei/diego/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
     vendor/huawei/diego/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/huawei/diego/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/huawei/diego/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/huawei/diego/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/huawei/diego/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/huawei/diego/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/huawei/diego/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
