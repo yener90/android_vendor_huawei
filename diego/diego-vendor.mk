@@ -312,7 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/huawei/diego/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/huawei/diego/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/huawei/diego/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/huawei/diego/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/huawei/diego/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/huawei/diego/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
@@ -327,6 +326,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/lib64/libbtinfo.so:system/lib64/libbtinfo.so \
     vendor/huawei/diego/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
     vendor/huawei/diego/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
+    vendor/huawei/diego/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/huawei/diego/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/diego/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/huawei/diego/proprietary/lib64/libhuaweicust.so:system/lib64/libhuaweicust.so \
@@ -1892,7 +1892,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libqmi_oem_api \
+    libdiag \
+    libdsutils \
+    libidl \
     libmdmdetect \
+    libMpeg4SwEncoder \
+    libperipheral_client \
+    libqmi_cci \
+    libqmi_client_qmux \
+    libqmiservices \
+    libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
@@ -1902,6 +1911,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     ims \
     qcrilmsgtunnel \
-    qcnvitems \
     QtiTetherService \
+    com.qti.location.sdk \
+    qcnvitems \
     qcrilhook
