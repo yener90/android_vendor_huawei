@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/huawei/diego/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/huawei/diego/proprietary/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
+    vendor/huawei/diego/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/huawei/diego/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/diego/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/huawei/diego/proprietary/bin/netmgrd:system/bin/netmgrd \
