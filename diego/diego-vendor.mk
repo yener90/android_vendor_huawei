@@ -329,6 +329,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/huawei/diego/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/diego/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/huawei/diego/proprietary/lib64/libhardware_legacy.so:system/lib64/libhardware_legacy.so \
     vendor/huawei/diego/proprietary/lib64/libhuaweicust.so:system/lib64/libhuaweicust.so \
     vendor/huawei/diego/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/diego/proprietary/lib64/libhw_hal.so:system/lib64/libhw_hal.so \
@@ -361,6 +362,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
     vendor/huawei/diego/proprietary/lib/libFaceDetection.so:system/lib/libFaceDetection.so \
     vendor/huawei/diego/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/huawei/diego/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
     vendor/huawei/diego/proprietary/lib/libhdr.so:system/lib/libhdr.so \
     vendor/huawei/diego/proprietary/lib/libhuaweicust.so:system/lib/libhuaweicust.so \
     vendor/huawei/diego/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
