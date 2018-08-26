@@ -348,6 +348,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
     vendor/huawei/diego/proprietary/lib64/libteec.so:system/lib64/libteec.so \
     vendor/huawei/diego/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
+    vendor/huawei/diego/proprietary/lib/hw/camera.msm8937.omron.so:system/lib/hw/camera.msm8937.omron.so \
     vendor/huawei/diego/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/huawei/diego/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/huawei/diego/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
