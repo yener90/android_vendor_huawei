@@ -276,6 +276,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/etc/firmware/synaptics_fw_b3.img:system/etc/firmware/synaptics_fw_b3.img \
     vendor/huawei/diego/proprietary/etc/firmware/synaptics_fw_b8.bin:system/etc/firmware/synaptics_fw_b8.bin \
     vendor/huawei/diego/proprietary/etc/firmware/synaptics_fw_b8.img:system/etc/firmware/synaptics_fw_b8.img \
+    vendor/huawei/diego/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
     vendor/huawei/diego/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/huawei/diego/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/huawei/diego/proprietary/etc/izat.conf:system/etc/izat.conf \
